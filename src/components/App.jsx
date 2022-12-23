@@ -1,13 +1,13 @@
 import "../styles/index.scss";
 import React from 'react'
 import Recipes from './Recipes';
-
+import monkey from "../images/monkey.gif";
 function App() {
   return (
-    <><section className="hero">
-
+    <><section >
+<img src={monkey} alt="" />
         </section>
-        <main>
+        <main className="hero">
             <h1>Ohhh Hi REACT!!!!</h1>
             <Recipes/>
         </main>
