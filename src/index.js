@@ -1,5 +1,10 @@
 const someRandomObject = {
-    "randomKey":"randomValue"
+    "randomKey1":"randomValue1"
 }
 
-console.log(someRandomObject);
+const someRandomObject2 = {
+    ...someRandomObject,
+    "randomKey2":"randomValue2"
+}
+
+console.log({someRandomObject,someRandomObject2});
