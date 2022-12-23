@@ -1,12 +1,6 @@
-import "./styles/index.scss";
+import {render} from "react-dom";
+import App from "./components/App";
 
-const someRandomObject = {
-  randomKey1: "randomValue1",
-};
 
-const someRandomObject2 = {
-  ...someRandomObject,
-  randomKey2: "randomValue23",
-};
+render(<App/>,document.getElementById("root"))
 
-console.log({ someRandomObject, someRandomObject2 });
